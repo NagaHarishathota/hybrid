@@ -18,6 +18,7 @@ public class createuser extends BaseTest
 	@Test
 	public void createusertest() throws Throwable
 	{
+		//hello testing
 		loginpage lp=new loginpage();
 		FileLib flib=new FileLib();
 		lp.login(flib.readPropData(PROP_PATH, "username"), flib.readPropData(PROP_PATH, "password"));
